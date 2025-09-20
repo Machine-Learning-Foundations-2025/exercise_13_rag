@@ -22,25 +22,13 @@
     ``` bash
     python src/query_rag.py --csv_path data_dir/hpc_wiki.csv --question 'Can we run Anaconda on Marvin?'
     ```
-    - Result:
-    ```bash
-    INFO:__main__:Step 4 - Processing Question
-    INFO:__main__:Q: Can we run Anaconda on Marvin?
-    INFO:__main__:A:  not allowed
-    ```
+    - What do answer do you get?
 
     - what do you observe if you replace the hpc-wiki crawl with random unrelated information? Run
     ``` bash
     python src/query_rag.py --csv_path data_dir/random_info.csv --question 'Can we run Anaconda on Marvin?'
     ```
-
-    - Result:
-    ``` bash
-    INFO:__main__:Step 4 - Processing Question
-    INFO:__main__:Q: Can we run Anaconda on Marvin?
-    INFO:__main__:A:  how far can we run
-    ```
-
+    - What changes?
 
 ### See also 
 - the original RAG paper
