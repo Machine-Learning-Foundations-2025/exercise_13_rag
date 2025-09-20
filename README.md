@@ -33,7 +33,6 @@
     ``` bash
     python src/query_rag.py --csv_path data_dir/random_info.csv --question 'Can we run Anaconda on Marvin?'
     ```
-    .
 
     - Result:
     ``` bash
